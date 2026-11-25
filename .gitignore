@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.idea/
+.matplotlib/
+batch_results/
+
+# Full datasets are on Google Drive. Three examples stay in the repository.
+data/*.mat
+!data/ORL.mat
+!data/NUS-WIDE.mat
+!data/NUSWIDEWG.mat

@@ -1,0 +1,3 @@
+block: 20
+device: cpu
+epoch: 60
