@@ -80,14 +80,15 @@ def train(model, features, adjacency, labels, n_clusters, args, device):
                 best_acc = float(scores[0][0])
                 best_result = current
                 best_epoch = epoch
-            print({'Self1 loss': '{:.6f}'.format(first_loss[0]),
-                   'Self2 loss': '{:.6f}'.format(second_loss[0]),
-                   'Loss': '{:.6f}'.format(total_loss[0])})
+            # print({'Self1 loss': '{:.6f}'.format(first_loss[0]),
+            #        'Self2 loss': '{:.6f}'.format(second_loss[0]),
+            #        'Loss': '{:.6f}'.format(total_loss[0])})
             # print({'Self1 loss': '{:.6f}'.format(first_loss[0]),
             #        'Self2 loss': '{:.6f}'.format(second_loss[0]),
             #        'Loss': '{:.6f}'.format(total_loss[0]),
             #        'ACC': '{:.2f} | {:.2f}'.format(scores[0][0] * 100, best_acc * 100)})
             # print(dict(zip(fields, current)))
+            print({'Loss': '{:.6f}'.format(total_loss[0])})
             pbar.update(1)
 
     print('------------------------')
