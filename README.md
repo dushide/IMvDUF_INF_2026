@@ -1,6 +1,6 @@
 ## An Interpretable Deep Unfolding Framework for Multi-view Representation Learning
 
-This framework unfolds a generalized multi-view representation problem into a network. This repository contains the code and datasets used for the experiments in our paper.
+This framework unfolds a generalized multi-view representation problem into a network. This repository contains the code and datasets used for the experiments in our paper. This framework is run on a server with a standard Ubuntu-16.04 operation system with a NVIDIA Tesla P100 16G GPU and 126G RAM.
 
 ### Datasets
 
